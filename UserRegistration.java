@@ -53,7 +53,11 @@ public class UserRegistration {
         //Rule 1-2 - Minimum 8 Characters With At least Minimum 1 Uppercase
         //String regexPassword = "^[A-Z]{1}[a-zA-Z]{7,}$";
         //Rule3 - atleast 1 number
-        String regexPassword = "^[a-zA-Z0-9]{8,}$";
+        //String regexPassword = "^[a-zA-Z0-9]{8,}$";
+
+        //Rule 4 - Minimum 8 Characters With At least Minimum 1 Uppercase, 1 Numeric Value and 1 Special Character
+        String regexPassword = "^(?=.*[a-z])(?=.*[0-9])(?=.*[@$!%*?&])[A-Za-z0-9@$!%*?&]{5,}$";
+
 
         boolean result = password.matches(regexPassword);
 
