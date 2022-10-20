@@ -50,8 +50,9 @@ public class UserRegistration {
     }
     public void check_Password(String password) {
 
-        //Rule 1 - Minimum 8 Characters With At least Minimum 1 Uppercase
+        //Rule 1-2 - Minimum 8 Characters With At least Minimum 1 Uppercase
         String regexPassword = "^[A-Z]{1}[a-zA-Z]{7,}$";
+
         boolean result = password.matches(regexPassword);
 
         if (result) {
