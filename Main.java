@@ -5,6 +5,7 @@ public class Main {
         UserRegistration userRegistration = new UserRegistration();
         userRegistration.minimumThreeCharacterNameWithFirstLetterIsCapital("Aniket");
         userRegistration.minimumThreeCharacterNameWithLasNameFirstIsCapital("Gavas");
+        userRegistration.check_Enter_Email_Validity("samplemail@gmail.com");
     }
 
 
