@@ -6,6 +6,7 @@ public class Main {
         userRegistration.minimumThreeCharacterNameWithFirstLetterIsCapital("Aniket");
         userRegistration.minimumThreeCharacterNameWithLasNameFirstIsCapital("Gavas");
         userRegistration.check_Enter_Email_Validity("samplemail@gmail.com");
+        userRegistration.check_Mobile_Number("91 9920365423");
     }
 
 
